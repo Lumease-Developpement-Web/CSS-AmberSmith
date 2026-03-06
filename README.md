@@ -28,7 +28,7 @@ Follow these instructions after creating a GitHub account:
 
 1. Open the terminal and enter:
 
-```bash
+``bash
 git config --global user.name "YourUsername"
 git config --global user.email "your@mail.com"
 git config --global --list  # Checks that the username and email are correctly registered
@@ -105,7 +105,5 @@ Puis :
   - 'git push -u origin main'
 
 ## Auteur
-
-Lumease - 2025.
 
 Lumease - 2025.

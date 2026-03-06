@@ -1,4 +1,4 @@
-# Welcome to the first one-shot project "Lifestyle!"  
+# Welcome to the project "Lifestyle!"  
 
 Direct link: https://lumease.github.io/lifestyle/  
 
@@ -54,7 +54,7 @@ Lumease - 2025
 
 ---
 
-# Bienvenue sur le premier projet one-shot "Lifestyle!" !
+# Bienvenue sur le projet "Lifestyle!" !
 
 Lien direct : https://lumease.github.io/lifestyle/
  

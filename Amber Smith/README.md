@@ -21,7 +21,7 @@ Vous devrez télécharger git bash (pour Windows et Mac). Pour Mac, il s'agit de
 Après l'avoir lancé, entrez les commandes suivantes :
 
 - 'cd Desktop'
-- 'git clone https://github.com/Lumease/mountainuniverse.git'
+- 'git clone https://github.com/Lumease/lifestyle.git'
 - Accédez à votre éditeur de code, puis ouvez le dossier.
 
 ou téléchargez le format compressé ZIP.
@@ -79,7 +79,7 @@ You’ll need to download Git Bash (for Windows and Mac). For Mac, it's the Term
 After launching it, enter the following commands:
 
 - 'cd Desktop'
-- 'git clone https://github.com/Lumease/mountainuniverse.git'
+- 'git clone https://github.com/Lumease/lifestyle.git'
 - Go to your code editor, then open the folder.
 
 Or download the ZIP compressed format.

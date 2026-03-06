@@ -1,0 +1,63 @@
+header {
+  @include space-b;
+  padding: 5rem 3.125rem 5rem 5rem;
+
+  .title {
+    h1 {
+      font-family: $font4;
+      color: $color6;
+      font-size: 3rem;
+    }
+    p {
+      @include center;
+      color: $color6;
+      font-style: italic;
+      font-size: 1.5rem;
+      min-width: 100%;
+    }
+  }
+
+  nav {
+    font-family: $font3;
+
+    ul {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      gap: 3rem;
+      li a {
+        position: relative;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $color9;
+
+          &:hover {
+            color: $color6;
+          }
+          &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -4px;
+            width: 0%;
+            height: 2px;
+            background-color: $color6;
+            transition: width 0.3s ease;
+        }
+        &:hover::after {
+          width: 100%;
+          color: $color6;
+        }
+      }
+    }
+    .nav-socials {
+      li {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+      }
+      a {
+        color: $color7;
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+// Fonts
+| Usage              | Police suggérée            | Style      |
+| ------------------ | -------------------------- | ---------- |
+| Nom du blog        | Playfair Display           | Serif      |
+| Slogan             | Dancing Script / Vibes     | Cursive    |
+| Menu / Paragraphes | Montserrat / Lato          | Sans-serif |
+| Titres de section  | Merriweather / Baskerville | Serif      |

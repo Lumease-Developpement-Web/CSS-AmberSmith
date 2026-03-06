@@ -1,0 +1,205 @@
+@media screen and (max-width: 1460px) {
+  .popular-posts {
+    .posts {
+      @include column;
+    }
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .categories {
+    .category {
+      @include column;
+      gap: 1rem;
+      width: 90%;
+    }
+  }
+}
+
+@media screen and (max-width: 940px)  {
+  header {
+    display: block;
+    padding: 4rem;
+
+    .title {
+      @include center;
+      p {
+        display: none;
+      }
+    }
+
+    nav {
+      ul {
+        @include column;
+        gap: 1rem;
+        margin-top: 2rem;
+      }
+
+      .nav-socials {
+        display: none;
+      }
+    }
+  }
+
+  .intro {
+    .content {
+      p {
+        display: none;
+      }
+    }
+  }
+
+  .categories {
+    .category {
+      width: 90%;
+    }
+  }
+  .newsletter, footer{
+    form {
+      @include column;
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .articles {
+    gap: 2rem;
+
+    .article {
+      .img {
+        display: none;
+      }
+      .date {
+        @include center;
+      }
+    }
+  }
+
+  .categories {
+    .category {
+      width: 90%;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+.categories {
+  .category {
+    width: 90%;
+  }
+}
+
+  .popular-posts {
+      display: none;
+  }
+  footer {
+    .footer-socials a {
+      border: none;
+    }
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .intro {
+    .content {
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 447px) {
+  .intro {
+    .content {
+      h2 {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 438px) {
+    .intro {
+    .content {
+        button {
+        font-size: 0.75rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  header {
+    .title {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .intro {
+    display: none;
+  }
+
+  .categories {
+    margin: 0 0 3rem;
+    .category {
+      width: 90%;
+    }
+  }
+
+  .articles {
+    .article {
+      .content {
+        h3 {
+          font-size: 1.5rem;
+        }
+        p {
+          font-size: 0.8rem;
+        }
+        button {
+          font-size: 0.755rem;
+        }
+      }
+    }
+  }
+    }
+
+@media screen and (max-width: 400px) {
+  .categories {
+    .category {
+      width: 90%;
+    }
+  }
+
+.newsletter {
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 0.65rem;
+  }
+}
+
+footer {
+  h4 {
+    font-size: 1.5rem;
+    }
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  header {
+    .title h1 {
+      font-size: 1.75rem;
+    }
+  }
+
+  .newsletter {
+    h3 {
+      font-size: 1.5rem;
+    }
+  }
+}
